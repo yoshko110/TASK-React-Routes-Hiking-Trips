@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import TripsList from "./components/TripsList";
 import TripDetail from "./components/TripDetail";
-import { Outlet } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
 
 function App() {
   return (
